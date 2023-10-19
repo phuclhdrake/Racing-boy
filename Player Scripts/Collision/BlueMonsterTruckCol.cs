@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BlueMonsterTruckCol : MonoBehaviour
+{
+    public AudioSource impact;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "AIBlueMonsterTruck")
+        {
+            impact.pitch = Random.Range(0.8f, 1.2f);
+            impact.Play();
+        }
+    }
+}
