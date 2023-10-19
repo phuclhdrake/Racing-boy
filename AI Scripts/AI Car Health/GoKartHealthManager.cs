@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class GoKartHealthManager : MonoBehaviour
 {
-    //
-    public static GoKartHealthManager instance;
+    private static GoKartHealthManager instance;
+    public static GoKartHealthManager Instance { get => instance; }
+
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
@@ -30,7 +32,7 @@ public class GoKartHealthManager : MonoBehaviour
             gameObject.SetActive(false);
             carExplosion.Play();
             //
-            GameManager.instance.KillGoKart();
+            GameManager.Instance.KillGoKart();
         }
     }
 

@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class TractorHealthManager : MonoBehaviour
 {
+    private static TractorHealthManager instance;
+    public static TractorHealthManager Instance { get => instance; }
 
-    //
-    public static TractorHealthManager instance;
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
@@ -31,7 +32,7 @@ public class TractorHealthManager : MonoBehaviour
             gameObject.SetActive(false);
             carExplosion.Play();
             //
-            GameManager.instance.KillTractor();
+            GameManager.Instance.KillTractor();
         }
     }
 

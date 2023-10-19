@@ -13,7 +13,7 @@ public class CopShoot : MonoBehaviour
     public GameObject cop;
     private float nextShot = 0;
     public float fireRate;
-    public GameObject bullet;
+    //public GameObject bullet;
     public float force;
     public Transform pointOfShot;
 
@@ -29,7 +29,7 @@ public class CopShoot : MonoBehaviour
     {
         Vector2 targetPos = target.position;
         Drirection = targetPos - (Vector2)transform.position;
-        RaycastHit2D rayInfo = Physics2D.Raycast(transform.position, Drirection, radius);
+        RaycastHit2D rayInfo = Physics2D.Raycast(transform.position, Drirection, radius);// co gi trong vong tron
 
         if (rayInfo)
         {
@@ -45,6 +45,7 @@ public class CopShoot : MonoBehaviour
                 if (located == true)
                 {
                     located = false;
+                    muzzleFlash.Stop();
                 }
             }
         }
@@ -62,10 +63,17 @@ public class CopShoot : MonoBehaviour
 
     void ShootBullet()
     {
-        GameObject bulletIns = Instantiate(bullet, pointOfShot.position, Quaternion.identity);
+        //GameObject bulletIns = Instantiate(bullet, pointOfShot.position, Quaternion.identity);
+        GameObject bulletPool = ObjectPool.Instance.GetPooledObject();
         gunSound.Play();
         muzzleFlash.Play();
-        bulletIns.GetComponent<Rigidbody2D>().AddForce(Drirection * force);
+        if (bulletPool != null)
+        {
+            bulletPool.transform.position = pointOfShot.position;
+            bulletPool.SetActive(true);
+            bulletPool.GetComponent<Rigidbody2D>().AddForce(Drirection * force);
+        }
+        //bulletIns.GetComponent<Rigidbody2D>().AddForce(Drirection * force);
     }
 
     private void OnDrawGizmosSelected()

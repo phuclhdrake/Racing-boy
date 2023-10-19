@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class HealthManager : MonoBehaviour
 {
-    public static HealthManager instance;
+    private static HealthManager instance;
+    public static HealthManager Instance { get => instance; }
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
 
     public AudioSource carExplosion;
+
     private void Awake()
     {
         instance = this; 
@@ -28,7 +31,7 @@ public class HealthManager : MonoBehaviour
             gameObject.SetActive(false);
             carExplosion.Play();
 
-            GameManager.instance.KillPlayer();
+            GameManager.Instance.KillPlayer();
         }
     }
 

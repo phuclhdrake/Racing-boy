@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class BlueMonsterHealthManager : MonoBehaviour
 {
-    public static BlueMonsterHealthManager instance;
+    private static BlueMonsterHealthManager instance;
+    public static BlueMonsterHealthManager Instance { get => instance; }
+
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
@@ -28,7 +31,7 @@ public class BlueMonsterHealthManager : MonoBehaviour
             gameObject.SetActive(false);
             carExplosion.Play();
 
-            GameManager.instance.KillBlueMonster();
+            GameManager.Instance.KillBlueMonster();
         }
     }
 

@@ -5,13 +5,28 @@ using UnityEngine;
 
 public class RacingDamage : MonoBehaviour
 {
+    private bool isCollEmemy = true;
     private void OnCollisionEnter2D(Collision2D other)
     {
-        string[] aiTags = { "Bullet", "AIBlueBuggy", "AIBlueMonsterTruck", "AIGoKart", "AIGreenMonsterTruck", "AIPolice", "AIPurpleBuggy", "Player", "AITaxi", "AISportCar", "AITaxi", "AITractorCar", };
-
-        if (Array.Exists(aiTags, tag => tag == other.gameObject.tag))
+        if (isCollEmemy)
         {
-            RacingHealthManager.instance.DamageRacing();
+            string[] aiTags = { "AIBlueBuggy", "AIBlueMonsterTruck", "AIGoKart", "AIGreenMonsterTruck", "AIPolice", "AIPurpleBuggy", "Player", "AITaxi", "AISportCar", "AITaxi", "AITractorCar", };
+
+            if (Array.Exists(aiTags, tag => tag == other.gameObject.tag))
+            {
+                RacingHealthManager.Instance.DamageRacing();
+                isCollEmemy = false;
+                if (gameObject.activeSelf)
+                {
+                    StartCoroutine(isColl());
+                }
+            }
         }
+    }
+    private IEnumerator isColl()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Debug.Log("aaa");
+        isCollEmemy = true;
     }
 }

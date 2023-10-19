@@ -5,13 +5,29 @@ using UnityEngine;
 
 public class PoliceDamage : MonoBehaviour
 {
+    private bool isCollEmemy = true;
     private void OnCollisionEnter2D(Collision2D other)
     {
-        string[] aiTags = { "Bullet", "AIBlueBuggy", "AIBlueMonsterTruck", "AIGoKart", "AIGreenMonsterTruck", "Player", "AIPurpleBuggy", "AIRacing", "AITaxi", "AISportCar", "AITaxi", "AITractorCar", };
-
-        if (Array.Exists(aiTags, tag => tag == other.gameObject.tag))
+        if (isCollEmemy)
         {
-            PoliceHealthManager.instance.DamagePolice();
+            string[] aiTags = { "AIBlueBuggy", "AIBlueMonsterTruck", "AIGoKart", "AIGreenMonsterTruck", "Player", "AIPurpleBuggy", "AIRacing", "AITaxi", "AISportCar", "AITaxi", "AITractorCar", };
+
+            if (Array.Exists(aiTags, tag => tag == other.gameObject.tag))
+            {
+                PoliceHealthManager.Instance.DamagePolice();
+                isCollEmemy = false;
+                if (gameObject.activeSelf)
+                {
+                    StartCoroutine(isColl());
+                }
+            }
         }
+    }
+
+    private IEnumerator isColl()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Debug.Log("aaa");
+        isCollEmemy = true;
     }
 }

@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public static MainMenu instance;
+    private static MainMenu instance;
+    public static MainMenu Instance { get => instance; }
+
+
     private string trackToLoad;
     public string trackName;
     public GameObject trackSelect;

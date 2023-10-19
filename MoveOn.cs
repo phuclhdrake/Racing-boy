@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MoveOn : MonoBehaviour
 {
+    // load screen
     public int moveOnwards;
     public string Scene;
 
@@ -18,9 +19,9 @@ public class MoveOn : MonoBehaviour
         yield return new WaitForSeconds(moveOnwards);
         if (Scene == "")
         {
-            if (MainMenu.instance.trackName != null)
+            if (MainMenu.Instance.trackName != null)
             {
-                SceneManager.LoadScene(MainMenu.instance.trackName);
+                SceneManager.LoadScene(MainMenu.Instance.trackName);
             }
         }
         else

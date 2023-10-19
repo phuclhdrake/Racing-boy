@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class MainCar : MonoBehaviour
 {
-    public static MainCar instance;
+    private static MainCar instance;
+    public static MainCar Instance { get => instance; }
+
+
     public Rigidbody2D rb;
     public float turningForce = 0.4f;
     private float turningAmount, speed, direction;
@@ -27,6 +30,8 @@ public class MainCar : MonoBehaviour
     //skid trail variables
     public GameObject leftTyre;
     public GameObject rightTyre;
+
+    
 
     public void Awake()
     {

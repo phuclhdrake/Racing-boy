@@ -1,9 +1,10 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class WheelController : MonoBehaviour
 {
+    // điều chỉnh lốp xe khi ôm cua
     private Vector3 angle;
     public float wheelAngle, maxWheelAngle = 30f;
 

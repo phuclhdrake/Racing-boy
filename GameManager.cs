@@ -8,7 +8,10 @@ using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    private static GameManager instance;
+    public static GameManager Instance { get => instance; }
+
+
     public int currentLives = 3;
     public float respawnTime = 2f;
 
@@ -99,7 +102,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnCo()
     {
         yield return new WaitForSeconds(respawnTime);
-        HealthManager.instance.Respawn();
+        HealthManager.Instance.Respawn();
     }
 
     //BlueMonster
@@ -114,7 +117,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnBlueMonster()
     {
         yield return new WaitForSeconds(respawnTime);
-        BlueMonsterHealthManager.instance.Respawn();
+        BlueMonsterHealthManager.Instance.Respawn();
     }
 
     //BlueBuggy
@@ -129,7 +132,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnBlueBuggy()
     {
         yield return new WaitForSeconds(respawnTime);
-        BlueBuggyHealthManager.instance.Respawn();
+        BlueBuggyHealthManager.Instance.Respawn();
     }
 
     //Tractor
@@ -144,7 +147,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnTractor()
     {
         yield return new WaitForSeconds(respawnTime);
-        TractorHealthManager.instance.Respawn();
+        TractorHealthManager.Instance.Respawn();
     }
 
     public void KillTaxi()
@@ -158,7 +161,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnTaxi()
     {
         yield return new WaitForSeconds(respawnTime);
-        TaxiHealthManager.instance.Respawn();
+        TaxiHealthManager.Instance.Respawn();
     }
 
     //PurpleBuggy
@@ -173,7 +176,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnPurpleBuggy()
     {
         yield return new WaitForSeconds(respawnTime);
-        PurpleBuggyHealthManager.instance.Respawn();
+        PurpleBuggyHealthManager.Instance.Respawn();
     }
 
     //GoKart
@@ -188,7 +191,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnGoKart()
     {
         yield return new WaitForSeconds(respawnTime);
-        GoKartHealthManager.instance.Respawn();
+        GoKartHealthManager.Instance.Respawn();
     }
 
     //Police
@@ -203,7 +206,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnPolice()
     {
         yield return new WaitForSeconds(respawnTime);
-        PoliceHealthManager.instance.Respawn();
+        PoliceHealthManager.Instance.Respawn();
     }
 
     //Sport
@@ -218,7 +221,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnSport()
     {
         yield return new WaitForSeconds(respawnTime);
-        SportHealthManager.instance.Respawn();
+        SportHealthManager.Instance.Respawn();
     }
 
     //GreenMonster
@@ -233,7 +236,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnGreenMonster()
     {
         yield return new WaitForSeconds(respawnTime);
-        GreenMonsterHealthManager.instance.Respawn();
+        GreenMonsterHealthManager.Instance.Respawn();
     }
 
     //Racing
@@ -248,7 +251,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator RespawnRacing()
     {
         yield return new WaitForSeconds(respawnTime);
-        RacingHealthManager.instance.Respawn();
+        RacingHealthManager.Instance.Respawn();
     }
 
 

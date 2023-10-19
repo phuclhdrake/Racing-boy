@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class SportHealthManager : MonoBehaviour
 {
-    //
-    public static SportHealthManager instance;
+    private static SportHealthManager instance;
+    public static SportHealthManager Instance { get => instance; }
+
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
@@ -20,7 +22,6 @@ public class SportHealthManager : MonoBehaviour
     {
         currentHealth = maxHealth;
     }
-    //
     public void DamageSport()
     {
         currentHealth--;
@@ -29,8 +30,8 @@ public class SportHealthManager : MonoBehaviour
             Instantiate(explosion, transform.position, transform.rotation);
             gameObject.SetActive(false);
             carExplosion.Play();
-            //
-            GameManager.instance.KillSport();
+            
+            GameManager.Instance.KillSport();
         }
     }
 

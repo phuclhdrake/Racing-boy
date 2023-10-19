@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class SpeedoMeter : MonoBehaviour
 {
+    // đồng hồ do tốc độ của xe
     public Rigidbody2D target;
     public float maxSpeed;
     public float minSpeed, maxSpeedAngle;

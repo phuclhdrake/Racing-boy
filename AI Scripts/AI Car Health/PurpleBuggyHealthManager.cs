@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PurpleBuggyHealthManager : MonoBehaviour
 {
-    //
-    public static PurpleBuggyHealthManager instance;
+    private static PurpleBuggyHealthManager instance;
+    public static PurpleBuggyHealthManager Instance { get => instance; }
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
@@ -30,7 +31,7 @@ public class PurpleBuggyHealthManager : MonoBehaviour
             gameObject.SetActive(false);
             carExplosion.Play();
             //
-            GameManager.instance.KillPurpleBuggy();
+            GameManager.Instance.KillPurpleBuggy();
         }
     }
 

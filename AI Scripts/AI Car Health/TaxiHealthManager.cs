@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class TaxiHealthManager : MonoBehaviour
 {
-    //
-    public static TaxiHealthManager instance;
+    private static TaxiHealthManager instance;
+    public static TaxiHealthManager Instance { get => instance; }
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
@@ -30,7 +31,7 @@ public class TaxiHealthManager : MonoBehaviour
             gameObject.SetActive(false);
             carExplosion.Play();
             //
-            GameManager.instance.KillTaxi();
+            GameManager.Instance.KillTaxi();
         }
     }
 

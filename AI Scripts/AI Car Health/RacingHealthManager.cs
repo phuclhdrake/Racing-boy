@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class RacingHealthManager : MonoBehaviour
 {
-    public static RacingHealthManager instance;
+    private static RacingHealthManager instance;
+    public static RacingHealthManager Instance { get => instance; }
+
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
@@ -27,7 +30,7 @@ public class RacingHealthManager : MonoBehaviour
             Instantiate(explosion, transform.position, transform.rotation);
             gameObject.SetActive(false);
             carExplosion.Play();
-            GameManager.instance.KillRacing();
+            GameManager.Instance.KillRacing();
         }
     }
 

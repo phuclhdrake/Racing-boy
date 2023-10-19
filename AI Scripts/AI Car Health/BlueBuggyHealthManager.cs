@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class BlueBuggyHealthManager : MonoBehaviour
 {
-    //
-    public static BlueBuggyHealthManager instance;
+    private static BlueBuggyHealthManager instance;
+    public static BlueBuggyHealthManager Instance { get => instance; }
+
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
@@ -30,7 +32,7 @@ public class BlueBuggyHealthManager : MonoBehaviour
             gameObject.SetActive(false);
             carExplosion.Play();
             //
-            GameManager.instance.KillBlueBuggy();
+            GameManager.Instance.KillBlueBuggy();
         }
     }
 

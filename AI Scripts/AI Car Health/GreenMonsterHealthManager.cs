@@ -5,7 +5,9 @@ using UnityEngine;
 public class GreenMonsterHealthManager : MonoBehaviour
 {
     //
-    public static GreenMonsterHealthManager instance;
+    private static GreenMonsterHealthManager instance;
+    public static GreenMonsterHealthManager Instance { get => instance; }
+
     public int currentHealth;
     public int maxHealth;
     public GameObject explosion;
@@ -30,7 +32,7 @@ public class GreenMonsterHealthManager : MonoBehaviour
             gameObject.SetActive(false);
             carExplosion.Play();
             //
-            GameManager.instance.KillGreenMonster();
+            GameManager.Instance.KillGreenMonster();
         }
     }
 
