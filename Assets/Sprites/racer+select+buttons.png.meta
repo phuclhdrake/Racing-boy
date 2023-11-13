@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: 54cc37d5e38bc5a42a5c334e6788a1f2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: go kart
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2134
+        width: 547
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b8b5ac08b1a854cb87ca273ec2d0dc
+      internalID: -572801404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: racing car
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2137
+        width: 546
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fffadc413a6e548af29de3347b65b8
+      internalID: 133353208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster truck
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2137
+        width: 547
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a110baecc4182234b8864f8a56ad67c7
+      internalID: -1126146996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster car
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 2137
+        width: 547
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d6d3fa2dbf81642a378df17d84f765
+      internalID: -2123874495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sports car
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1561
+        width: 546
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9e8c9407014a447a142803dcd28e3f
+      internalID: -566694674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taxi
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1556
+        width: 551
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68af0aa6393417941830a9123f451b56
+      internalID: 59156139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: police car
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1559
+        width: 550
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e7898fdfff6004c99c1c65e6027de3
+      internalID: 1993476646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractor
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 1557
+        width: 548
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155266d8bbe9ef04f9fc544cb9242adf
+      internalID: -251649370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buggy
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1032
+        width: 548
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf69a03c3e2ab8341bb98a8d3d8c725e
+      internalID: -1508323158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hot rod
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1032
+        width: 548
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145fb39c1c161cd4e89e0f7e9ae86b75
+      internalID: 1445716035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button back
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1262
+        width: 520
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf45d5af133bb545b560e84a1e024fa
+      internalID: 1543824118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 987
+        width: 513
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb51ec9db61fbd428fdf5e6f1aa1945
+      internalID: -2052172740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laps
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 554
+        width: 626
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b581aca3377a1449871177a3a59fff4
+      internalID: -1038610220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lap time
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 550
+        width: 1030
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad07fcb31cf5181498f5b458bc4f79f0
+      internalID: -369750675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: best time
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 159
+        width: 1104
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e12313a1e869549997b0e397828d25
+      internalID: -435108081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      best time: -435108081
+      buggy: -1508323158
+      button: -2052172740
+      button back: 1543824118
+      go kart: -572801404
+      hot rod: 1445716035
+      lap time: -369750675
+      laps: -1038610220
+      monster car: -2123874495
+      monster truck: -1126146996
+      police car: 1993476646
+      racer+select+buttons_1: -544798680
+      racer+select+buttons_10: -643806279
+      racer+select+buttons_11: -1629511547
+      racer+select+buttons_12: 1556186299
+      racer+select+buttons_13: -1377124181
+      racer+select+buttons_14: 1172244160
+      racer+select+buttons_15: 837815505
+      racer+select+buttons_16: 1303396534
+      racer+select+buttons_17: 1985123929
+      racer+select+buttons_18: -2064793766
+      racer+select+buttons_19: -791057206
+      racer+select+buttons_20: 1481339943
+      racer+select+buttons_21: 1990891517
+      racer+select+buttons_23: 1790220444
+      racer+select+buttons_25: 1642408267
+      racer+select+buttons_27: 1136487954
+      racer+select+buttons_28: -734952923
+      racer+select+buttons_3: -15200601
+      racer+select+buttons_30: -2121675507
+      racer+select+buttons_31: 1881160348
+      racer+select+buttons_32: -1515496229
+      racer+select+buttons_33: -1890370365
+      racer+select+buttons_34: 1979167777
+      racer+select+buttons_35: -782411957
+      racer+select+buttons_36: 255985440
+      racer+select+buttons_37: -265043857
+      racer+select+buttons_38: -1536675177
+      racer+select+buttons_39: -1454476565
+      racer+select+buttons_4: 49377963
+      racer+select+buttons_40: -495362714
+      racer+select+buttons_41: -2046690852
+      racer+select+buttons_42: 569512503
+      racer+select+buttons_43: -591622326
+      racer+select+buttons_44: -1829772235
+      racer+select+buttons_45: -2037630414
+      racer+select+buttons_46: 1621483850
+      racer+select+buttons_47: 1898138588
+      racer+select+buttons_49: 1204741833
+      racer+select+buttons_5: 2144678303
+      racer+select+buttons_50: 2068348093
+      racer+select+buttons_52: 1251392633
+      racer+select+buttons_53: -1739328442
+      racer+select+buttons_55: -814034634
+      racer+select+buttons_56: -485781976
+      racer+select+buttons_57: -1666033853
+      racer+select+buttons_59: -1885914807
+      racer+select+buttons_60: 395645997
+      racer+select+buttons_61: 204796653
+      racer+select+buttons_62: -1824948136
+      racer+select+buttons_63: 365828003
+      racer+select+buttons_66: -1766439002
+      racer+select+buttons_67: 1308197972
+      racer+select+buttons_69: 462994180
+      racer+select+buttons_7: 1928445331
+      racer+select+buttons_70: -1530052383
+      racer+select+buttons_8: 1108335827
+      racing car: 133353208
+      sports car: -566694674
+      taxi: 59156139
+      tractor: -251649370
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

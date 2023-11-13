@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: d8296196d4e3aad40a3ef612483089ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: track+and+car+select+main_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2457
+        width: 4503
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c160f3b2ceb82f64c8bb3619c25f1f3b
+      internalID: -104614736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1952
+        width: 4525
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec72f9e0fd2ad24fa6a0ad169317c21
+      internalID: -1369626263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1535
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3e26af6e7b8094f9fb7815d9e5c04e
+      internalID: -345376505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_15
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1535
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee613152c4115a44850c9e5433a7d49
+      internalID: -1294084721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_17
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1531
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09d20b42497700459fda4fe13154416
+      internalID: -751685879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_18
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 1534
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a949fdff776001a4785a21614d4c78c7
+      internalID: -1551111942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_19
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 1535
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb2cae576eb51b42a240f530e02233c
+      internalID: -894483721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_20
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 1535
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cf3e40693d80d4bb43c7a2a742b5f2
+      internalID: -199563017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_22
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1531
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0a9cb2621f7e94d8c5c208680efb41
+      internalID: -1626550994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_23
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1536
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932aa41004cb2714d85edb0a7e686c2c
+      internalID: -1753855717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_24
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1533
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14120d02e9e40214fa436a22ec8aa656
+      internalID: -766490378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_53
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 1140
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7edad6be38f2a34cb2e7208456c7237
+      internalID: -466034043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_54
+      rect:
+        serializedVersion: 2
+        x: 3373
+        y: 1137
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad2d72042feeb94f81b84f1de37def4
+      internalID: -99493614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_56
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1127
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd52d1092f24b66488b6fbb20c9dab50
+      internalID: -1092668581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_57
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1129
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25be6349c03a849418ee30e4cf43fa1e
+      internalID: -18013729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_58
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1131
+        width: 394
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6524b1925ffc2540ae02774878e210c
+      internalID: 1798923496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_59
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1137
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0f2db012900f6448f527eb596f590b
+      internalID: 377282476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_60
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1131
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754176388f981c24396d97b78013a59f
+      internalID: -1514833252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_61
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 1135
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0d358517ee78b4fa6ae8165ca8e058
+      internalID: 411770040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_62
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 1140
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9be454ff24888e48b154c8d8688427d
+      internalID: -1839778911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_80
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 781
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b94cdef864b90e4f906ffda7016127f
+      internalID: -646861829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_81
+      rect:
+        serializedVersion: 2
+        x: 3823
+        y: 786
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231a63ee7e29efd46a51c050f4c81c21
+      internalID: -1162531028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_89
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 766
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fbbbe09f6164a4a9d1481e3c82e8d9
+      internalID: 355380462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_90
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 774
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64f040cbf486b34ea32c0a0087e8d61
+      internalID: 1013485858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_91
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 772
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc0211562f276645a2fe574977acc64
+      internalID: -1977634141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_92
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 772
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f706ec082fb12a468579b1edcb41826
+      internalID: -1407873685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_93
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 774
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a29ece63def5c4d8ebecd10fea391c
+      internalID: 707586874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_96
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 755
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a4c2a931715f646a5bb41e2f6fd6e2
+      internalID: -1049280134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_97
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 754
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f9da03d94f7f64f9536d21a7843832
+      internalID: -1500834496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_120
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 398
+        width: 182
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743109c4936307e4f8fe18ba0d30b9e2
+      internalID: 2122384865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: track+and+car+select+main_121
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 83
+        width: 906
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f681be040faec42a5af70b0a01b48e
+      internalID: -278577448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      track+and+car+select+main_0: -104614736
+      track+and+car+select+main_1: 1817109759
+      track+and+car+select+main_10: -1388256973
+      track+and+car+select+main_100: -551796211
+      track+and+car+select+main_101: -626585771
+      track+and+car+select+main_102: 598437612
+      track+and+car+select+main_103: 1918017924
+      track+and+car+select+main_104: 1083401332
+      track+and+car+select+main_105: -967946868
+      track+and+car+select+main_106: -2138014180
+      track+and+car+select+main_107: -49140826
+      track+and+car+select+main_108: 2127068985
+      track+and+car+select+main_109: 1427542831
+      track+and+car+select+main_11: 663177091
+      track+and+car+select+main_110: -1466694389
+      track+and+car+select+main_111: -1384863776
+      track+and+car+select+main_112: -1432624090
+      track+and+car+select+main_113: 1317707203
+      track+and+car+select+main_114: -1700640834
+      track+and+car+select+main_115: -516000075
+      track+and+car+select+main_116: 615128262
+      track+and+car+select+main_117: 1824610248
+      track+and+car+select+main_118: -2089680841
+      track+and+car+select+main_119: 1124746411
+      track+and+car+select+main_12: -303417911
+      track+and+car+select+main_120: 2122384865
+      track+and+car+select+main_121: -278577448
+      track+and+car+select+main_13: 30903527
+      track+and+car+select+main_14: -345376505
+      track+and+car+select+main_15: -1294084721
+      track+and+car+select+main_16: -1409402429
+      track+and+car+select+main_17: -751685879
+      track+and+car+select+main_18: -1551111942
+      track+and+car+select+main_19: -894483721
+      track+and+car+select+main_2: -2054961697
+      track+and+car+select+main_20: -199563017
+      track+and+car+select+main_21: 720129795
+      track+and+car+select+main_22: -1626550994
+      track+and+car+select+main_23: -1753855717
+      track+and+car+select+main_24: -766490378
+      track+and+car+select+main_25: 1451445563
+      track+and+car+select+main_26: -1663952941
+      track+and+car+select+main_27: -1506452765
+      track+and+car+select+main_28: -1413024873
+      track+and+car+select+main_29: -405230450
+      track+and+car+select+main_3: -698519449
+      track+and+car+select+main_30: -351690763
+      track+and+car+select+main_31: -892851331
+      track+and+car+select+main_32: 440333249
+      track+and+car+select+main_33: -914901774
+      track+and+car+select+main_34: -1958406314
+      track+and+car+select+main_35: 753037749
+      track+and+car+select+main_36: -1786719263
+      track+and+car+select+main_37: -360490364
+      track+and+car+select+main_38: -859660830
+      track+and+car+select+main_39: 1105376760
+      track+and+car+select+main_4: 1639908430
+      track+and+car+select+main_40: -1617670096
+      track+and+car+select+main_41: -993681255
+      track+and+car+select+main_42: -1376882860
+      track+and+car+select+main_43: 1996946859
+      track+and+car+select+main_44: -873519281
+      track+and+car+select+main_45: -881691590
+      track+and+car+select+main_46: 1160008922
+      track+and+car+select+main_47: 1460214166
+      track+and+car+select+main_48: -896379088
+      track+and+car+select+main_49: -323652481
+      track+and+car+select+main_5: -837916441
+      track+and+car+select+main_50: 408082127
+      track+and+car+select+main_51: -955085609
+      track+and+car+select+main_52: -1029034351
+      track+and+car+select+main_53: -466034043
+      track+and+car+select+main_54: -99493614
+      track+and+car+select+main_55: 964383600
+      track+and+car+select+main_56: -1092668581
+      track+and+car+select+main_57: -18013729
+      track+and+car+select+main_58: 1798923496
+      track+and+car+select+main_59: 377282476
+      track+and+car+select+main_6: 2002398612
+      track+and+car+select+main_60: -1514833252
+      track+and+car+select+main_61: 411770040
+      track+and+car+select+main_62: -1839778911
+      track+and+car+select+main_63: 1349193848
+      track+and+car+select+main_64: 488630611
+      track+and+car+select+main_65: 2033548546
+      track+and+car+select+main_66: -993351249
+      track+and+car+select+main_67: -833241023
+      track+and+car+select+main_68: -1666700382
+      track+and+car+select+main_69: -921831053
+      track+and+car+select+main_7: -1369626263
+      track+and+car+select+main_70: 1536515424
+      track+and+car+select+main_71: -1803651531
+      track+and+car+select+main_72: -1767809390
+      track+and+car+select+main_73: 1677189951
+      track+and+car+select+main_74: 1335743833
+      track+and+car+select+main_75: 542901487
+      track+and+car+select+main_76: 229499454
+      track+and+car+select+main_77: 1337271455
+      track+and+car+select+main_78: -476958014
+      track+and+car+select+main_79: 1833787170
+      track+and+car+select+main_8: -591745408
+      track+and+car+select+main_80: -646861829
+      track+and+car+select+main_81: -1162531028
+      track+and+car+select+main_82: -1890705236
+      track+and+car+select+main_83: 435412585
+      track+and+car+select+main_84: -1875861445
+      track+and+car+select+main_85: 2102090564
+      track+and+car+select+main_86: -1501546334
+      track+and+car+select+main_87: -200599140
+      track+and+car+select+main_88: -249562927
+      track+and+car+select+main_89: 355380462
+      track+and+car+select+main_9: 556236032
+      track+and+car+select+main_90: 1013485858
+      track+and+car+select+main_91: -1977634141
+      track+and+car+select+main_92: -1407873685
+      track+and+car+select+main_93: 707586874
+      track+and+car+select+main_94: -285279894
+      track+and+car+select+main_95: 2077320655
+      track+and+car+select+main_96: -1049280134
+      track+and+car+select+main_97: -1500834496
+      track+and+car+select+main_98: -700222760
+      track+and+car+select+main_99: -100560777
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: 3a50e1cd6c90aca4ebfe08d522df9096
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Go kart
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 748
+        width: 109
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdccbe40228a7b468ed9456179e3b92
+      internalID: -1253067686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left tractor car w
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 420
+        width: 27
+        height: 38
+      alignment: 9
+      pivot: {x: 0.88962936, y: 0.49894714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5613e743216a274797d7f3a737640bd
+      internalID: -1878944555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Racing car
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 728
+        width: 88
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9119edfd33034364187537fc724a499b
+      internalID: -1312336300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green monster truck
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 738
+        width: 132
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c00184deb631041812e48e33c09ec4
+      internalID: -84023155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue monster truck
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 738
+        width: 125
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402ac726cdfd7984390c4784090a0b2c
+      internalID: 1635901327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sport car
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 738
+        width: 83
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb32f10f635fd9458a8cff287c6c88d
+      internalID: -882969128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right Go kart w
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 711
+        width: 20
+        height: 26
+      alignment: 9
+      pivot: {x: 0.15038148, y: 0.50094604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf169f2cdb816634ca99d5d12283c139
+      internalID: 1676797340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left green monster truck w
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 685
+        width: 29
+        height: 42
+      alignment: 9
+      pivot: {x: 0.89513844, y: 0.49817768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffef4977a8ad59847b383af2504cc48c
+      internalID: -217208721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left Go kart w
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 712
+        width: 20
+        height: 26
+      alignment: 9
+      pivot: {x: 0.85026705, y: 0.49535897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2948f4488c1c89d4da1925c9eedbaa70
+      internalID: 658440989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right green monster truck w
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 685
+        width: 29
+        height: 42
+      alignment: 9
+      pivot: {x: 0.10047404, y: 0.50138074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a034526f54f0f4fac7967c63b579fa
+      internalID: -764463637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left blue monster truck w
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 685
+        width: 29
+        height: 42
+      alignment: 9
+      pivot: {x: 0.89697266, y: 0.49856713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71ac59cac84d074f882a07448b91aeb
+      internalID: 515267612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right blue monster truck w
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 685
+        width: 29
+        height: 42
+      alignment: 9
+      pivot: {x: 0.103164144, y: 0.49909028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed709ab0592d9564197c0c478e09a4ea
+      internalID: -939702138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lert sport car w
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 698
+        width: 15
+        height: 28
+      alignment: 9
+      pivot: {x: 0.7997233, y: 0.4988229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072c7000dc321344a8cc9e4dc23d7d15
+      internalID: 2100156059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right sport car w
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 698
+        width: 15
+        height: 28
+      alignment: 9
+      pivot: {x: 0.19873454, y: 0.49733844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cc4888abe321841a6ada6bc7315610
+      internalID: -1241951401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left Racing car w
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 691
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.8838205, y: 0.49780038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64407849b82b2674890200434f4ede2c
+      internalID: -2097986575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right Racing car w
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 691
+        width: 17
+        height: 26
+      alignment: 9
+      pivot: {x: 0.11659061, y: 0.49903753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddc8ea17f398c94fab5547f06e4f215
+      internalID: -1826795553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractor car
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 484
+        width: 125
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ded071f8813b948855ee4f170b364c
+      internalID: 29439683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue buggy car
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 472
+        width: 145
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6c5b1e08499e94399df97a207ab8e7
+      internalID: 561986092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taxi car
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 466
+        width: 97
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741058e8e4c93df42a49f70e118a904e
+      internalID: 1881930822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: police car
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 470
+        width: 97
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1248a986c91748e439917ddfd8da3447
+      internalID: -230675557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple buggy car
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 465
+        width: 111
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be82d09f61b67f499d07ee6c6afa67d
+      internalID: 2004178995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right tractor car w
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 421
+        width: 27
+        height: 38
+      alignment: 9
+      pivot: {x: 0.11175452, y: 0.49894634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5ce62c6b5c26146bb147c5dfddbf16
+      internalID: -1943228307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left blue buggy car w
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 420
+        width: 19
+        height: 43
+      alignment: 9
+      pivot: {x: 0.83999956, y: 0.49906957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e97ca2ad2925d45959cdae5533904e
+      internalID: -1541232207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right blue buggy car w
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 420
+        width: 19
+        height: 43
+      alignment: 9
+      pivot: {x: 0.15684108, y: 0.50046486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c37c12ef13d0ec46b851dbf9f620731
+      internalID: -820221137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left taxi car w
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 420
+        width: 12
+        height: 29
+      alignment: 9
+      pivot: {x: 0.8349991, y: 0.49931073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66e795cc6c1b7e4ea1b6862321ab659
+      internalID: 433753066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right taxi car w
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 420
+        width: 12
+        height: 29
+      alignment: 9
+      pivot: {x: 0.16499837, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ee5f2a47857f546805c4fa50600acb
+      internalID: -553386616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left police car w
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 423
+        width: 14
+        height: 29
+      alignment: 9
+      pivot: {x: 0.8582023, y: 0.49992108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebff025a102187c48b76dae6e4dafa98
+      internalID: -1386919767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right police car w
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 424
+        width: 14
+        height: 29
+      alignment: 9
+      pivot: {x: 0.14285715, y: 0.49793112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269b37650f571c346ad85e1f4a37d079
+      internalID: 384687984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left purple buggy car w
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 421
+        width: 13
+        height: 37
+      alignment: 9
+      pivot: {x: 0.8476891, y: 0.49945974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b00131440a7f284baae1fe92f8e2c3e
+      internalID: 1977618699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right purple buggy car w
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 421
+        width: 13
+        height: 37
+      alignment: 9
+      pivot: {x: 0.15538612, y: 0.49945974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18ac892e805e3d438f646f8b3676223
+      internalID: -855156904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full tractor car
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 242
+        width: 125
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b3e8aa335b2534f816b12f1dce649a
+      internalID: -1137510551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full blue buggy car
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 228
+        width: 133
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79f71c9ac040aa4790123795d643da8
+      internalID: 2128740246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full taxi car
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 222
+        width: 97
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a52c7cf35844e46999752eb4965d6a
+      internalID: -2095892480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full police car
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 225
+        width: 99
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d541e7d9162084990d84961c181c08
+      internalID: -859155945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full purple buggy car
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 221
+        width: 111
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fba624074569f046b326150eaf2c1c7
+      internalID: -161045902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full Racing car
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 49
+        width: 88
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f830a233859a712409e5c7a91dd148c0
+      internalID: -2077400622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full Go kart
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 64
+        width: 108
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d227dec60810985409b9938813e2fad4
+      internalID: 1829217744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full green monster truck
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 58
+        width: 132
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f54430944688d46bf6efb2ebc78f55
+      internalID: 706506883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full blue monster truck
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 59
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7ba6b0b423ea64dacf30a2951805fc
+      internalID: -1360572442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: full sport car
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 57
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a577fbdc6c57e4fabac10a88698bba
+      internalID: -1055445229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Go kart: -1253067686
+      Racing car: -1312336300
+      Rc+car+Sprite+sheet_2: -452117856
+      Rc+car+Sprite+sheet_24: -237094899
+      Rc+car+Sprite+sheet_3: 1448488710
+      Rc+car+Sprite+sheet_39: -691645748
+      Rc+car+Sprite+sheet_8: -642043350
+      blue buggy car: 561986092
+      blue monster truck: 1635901327
+      full Go kart: 1829217744
+      full Racing car: -2077400622
+      full blue buggy car: 2128740246
+      full blue monster truck: -1360572442
+      full green monster truck: 706506883
+      full police car: -859155945
+      full purple buggy car: -161045902
+      full sport car: -1055445229
+      full taxi car: -2095892480
+      full tractor car: -1137510551
+      green monster truck: -84023155
+      left Go kart w: 658440989
+      left Racing car w: -2097986575
+      left blue buggy car w: -1541232207
+      left blue monster truck w: 515267612
+      left green monster truck w: -217208721
+      left police car w: -1386919767
+      left purple buggy car w: 1977618699
+      left taxi car w: 433753066
+      left tractor car w: -1878944555
+      lert sport car w: 2100156059
+      police car: -230675557
+      purple buggy car: 2004178995
+      right Go kart w: 1676797340
+      right Racing car w: -1826795553
+      right blue buggy car w: -820221137
+      right blue monster truck w: -939702138
+      right green monster truck w: -764463637
+      right police car w: 384687984
+      right purple buggy car w: -855156904
+      right sport car w: -1241951401
+      right taxi car w: -553386616
+      right tractor car w: -1943228307
+      sport car: -882969128
+      taxi car: 1881930822
+      tractor car: 29439683
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
